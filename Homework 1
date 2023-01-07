@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+ <!-- -->
+ <!--  -->
+ <html>
+ <head>
+ <meta charset = "utf-8">
+ <title>Menu</title>
+ </head>
+
+ <body>
+ 
+ <p>
+<strong>
+Dado Tea Lunch Special</strong>
+<p>Monday through Friday</p>
+<p>11am-3pm</p>
+<p>9.95 plus tax
+</p>
+<p> Includes sandwich, snack and drink. </p>
+
+<p> Order information </p>
+<p><label>Name:
+<input name = "name" type = "text" size = "25"
+maxlength = "30">
+</label></p>
+<p><label><input type="radio"> Here</label>
+<label>
+<input type="radio"> To Go </label >
+</p>
+<p> Sandwiches </p>
+<p><strong> Monday </strong></p>
+<p><label > <input type="radio">Tomato Mozzarella  </p>
+<p> <input type="radio"> Chichen Salad  </p>
+</label>
+<p><strong> Tuesday  </strong></p>
+<p><label > <input type="radio">Greek Salad Wrap  </p>
+<p> <input type="radio">Toto Wrap  </p>
+</label>
+<p><strong> Wednesday  </strong></p>
+<p><label > <input type="radio">Red Pepper Hummus  </p>
+<p> <input type="radio">Roasted Turkey  </p>
+</label>
+<p><strong> Thursday  </strong></p>
+<p><label > <input type="radio">Carrot-Ginger Hummus Wrap  </p>
+<p> <input type="radio">Egg Salad  </p>
+</label>
+<p><strong> Friday  </strong></p>
+<p><label > <input type="radio" >Dado Wrap  </p>
+<p> <input type="radio"> Tuna Salad </p>
+</label>
+<p><hr></hr> </p>
+<p><label > <input type="radio">Gluten Free Bread (75 extra )  </p>
+
+</label>
+
+<p> Snack</p>
+<p><strong > Snacks </strong></p>
+<p><label > <input type="radio">Apple  </p>
+<p> <input type="radio">Banana  </p>
+<p> <input type="radio">Potato Chips  </p>
+</label>
+<p>Drink</p>
+
+
+<p> <label for="drinks"> <strong>Drinks </strong> </label></p>
+<select name="drinks" id="drinks">
+<option 
+value="coffe"> Coffe or Iced coffe </option>
+<option 
+value="Pepermint"> Organic Pepermint  </option>
+<option 
+value="Green Tea"> Hot or Iced Sencha Green Tea  </option>
+<option 
+value="Black Tea"> Hot or Iced Keemun Black Tea  </option>
+
+</select>
+<p><hr></hr> </p>
+<p><input type="radio">Large Drink (75g extra)</p>
+<p>
+<input type = "submit" value = "Place Order"> </p>
+ </body>
+ </html>
